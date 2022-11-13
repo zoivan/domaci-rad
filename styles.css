@@ -1,3 +1,6 @@
+img {
+  border-bottom-left-radius: 5px;
+}
 label {
   display: block;
   margin-bottom: 10px;
@@ -6,7 +9,6 @@ label {
 input {
   margin-bottom: 15px;
 }
-
 body {
   background-color: #fcd530;
   display: flex;
@@ -16,16 +18,13 @@ body {
   width: 100vw;
   font-family: "Helvetica", sans-serif;
 }
-
 .card {
   width: 1000px;
   height: 500px;
   background-color: #ffff;
   border-radius: 5px;
   box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.75);
- 
-}
-
+ }
 .header {
   background-color: red;
   height: 70px;
@@ -35,17 +34,13 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 .content {
   display: flex;
-  
-}
+  }
 .photo {
     display: flex;
   justify-content: left;
-  
-}
-
+  }
 .input {
   display: flex;
   flex-direction: column;
