@@ -24,7 +24,7 @@ body {
   background-color: #ffff;
   border-radius: 5px;
   box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.75);
- }
+}
 .header {
   background-color: red;
   height: 70px;
@@ -36,11 +36,12 @@ body {
 }
 .content {
   display: flex;
-  }
+}
 .photo {
-    display: flex;
+  display: flex;
   justify-content: left;
-  }
+  width: 50%;
+}
 .input {
   display: flex;
   flex-direction: column;
